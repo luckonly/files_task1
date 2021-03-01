@@ -1,11 +1,11 @@
 package files_task1;
 
-public class NewFile {
+public class File {
 
     String path;
     boolean isDirectory;
 
-    public NewFile(String path, boolean isDirectory) {
+    public File(String path, boolean isDirectory) {
         this.path = path;
         this.isDirectory = isDirectory;
     }
