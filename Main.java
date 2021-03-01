@@ -6,7 +6,7 @@ import java.util.*;
 public class Main {
 
     public static StringBuilder sb = new StringBuilder();
-    public static String path = "/users/at/netology-ru/IdeaProjects/out/";
+    public static final String PATH = "/users/at/netology-ru/IdeaProjects/out/";
 
     public static void main(String[] args) {
 
@@ -37,19 +37,19 @@ public class Main {
 
         List<File> filesList = new ArrayList<>();
 
-        filesList.add(new File(path + "/Games", true));
-        filesList.add(new File(path + "/Games/src", true));
-        filesList.add(new File(path + "/Games/src/Main", true));
-        filesList.add(new File(path + "/Games/src/Main/Main.java", false));
-        filesList.add(new File(path + "/Games/src/Main/Utils.java", false));
-        filesList.add(new File(path + "/Games/src/Test", true));
-        filesList.add(new File(path + "/Games/res", true));
-        filesList.add(new File(path + "/Games/savegames", true));
-        filesList.add(new File(path + "/Games/temp", true));
-        filesList.add(new File(path + "/Games/res/drawables", true));
-        filesList.add(new File(path + "/Games/res/vectors", true));
-        filesList.add(new File(path + "/Games/res/icons", true));
-        filesList.add(new File(path + "/Games/temp/temp.txt", false));
+        filesList.add(new File(PATH + "/Games", true));
+        filesList.add(new File(PATH + "/Games/src", true));
+        filesList.add(new File(PATH + "/Games/src/Main", true));
+        filesList.add(new File(PATH + "/Games/src/Main/Main.java", false));
+        filesList.add(new File(PATH + "/Games/src/Main/Utils.java", false));
+        filesList.add(new File(PATH + "/Games/src/Test", true));
+        filesList.add(new File(PATH + "/Games/res", true));
+        filesList.add(new File(PATH + "/Games/savegames", true));
+        filesList.add(new File(PATH + "/Games/temp", true));
+        filesList.add(new File(PATH + "/Games/res/drawables", true));
+        filesList.add(new File(PATH + "/Games/res/vectors", true));
+        filesList.add(new File(PATH + "/Games/res/icons", true));
+        filesList.add(new File(PATH + "/Games/temp/temp.txt", false));
 
         return filesList;
     }
